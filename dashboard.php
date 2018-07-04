@@ -36,7 +36,7 @@ $currentdate = date('M j Y', strtotime($system_date));
 
 
 
-//Get No. of days bw dates - Treatment Days
+//Get No. of days bw dates - Treatment Days counting
 $treatmentdays = getTreatmentDays($currentdate,$treatmentend);
 
 function getTreatmentDays($startDate,$endDate){
